@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Example</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row vh-100">
+            <!-- Left Column (Wider) -->
+            <div class="col-md-8 overflow-auto bg-light">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Left Column Content</h5>
+                        <p class="card-text">This column contains a link and embedded content.</p>
+                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary mb-4">
+                            Visit Example.com
+                        </a>
+                        <!-- Embedded Content Placeholder -->
+                        <div class="ratio ratio-16x9">
+                            <embed src="https://www.example.com" type="text/html" width="100%" height="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column (Narrower) -->
+            <div class="col-md-4 overflow-auto bg-white">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Form in Right Column</h5>
+                        <p class="card-text">This card contains a simple form with text input fields.</p>
+                        
+                        <!-- Form with Text Input Fields -->
+                        <form>
+                            <div class="mb-3">
+                                <label for="inputField1" class="form-label">First Input</label>
+                                <input type="text" class="form-control" id="inputField1" placeholder="Enter first text">
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputField2" class="form-label">Second Input</label>
+                                <input type="text" class="form-control" id="inputField2" placeholder="Enter second text">
+                            </div>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
