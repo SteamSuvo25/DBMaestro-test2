@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <div class="container-fluid">
         <div class="row vh-100">
             <!-- Left Column (Wider) -->
@@ -40,13 +39,21 @@
                         <!-- Form with Text Input Fields -->
                         <form>
                             <div class="mb-3">
-                                <label for="inputField1" class="form-label">First Input</label>
-                                <input type="text" class="form-control" id="inputField1" placeholder="Enter first text">
+                                <label for="inputField0" class="form-label">Additional Input</label>
+                                <input type="text" class="form-control" id="inputField0" placeholder="Enter additional text">
                             </div>
-                            <div class="mb-3">
-                                <label for="inputField2" class="form-label">Second Input</label>
-                                <input type="text" class="form-control" id="inputField2" placeholder="Enter second text">
+
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="inputField1" class="form-label">First Input</label>
+                                    <input type="text" class="form-control" id="inputField1" placeholder="Enter first text">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="inputField2" class="form-label">Second Input</label>
+                                    <input type="text" class="form-control" id="inputField2" placeholder="Enter second text">
+                                </div>
                             </div>
+
                             <button type="submit" class="btn btn-success">Submit</button>
                         </form>
                     </div>
