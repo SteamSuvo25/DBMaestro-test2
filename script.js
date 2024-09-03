@@ -1,5 +1,4 @@
-//var baseURL = "http://13.127.134.229/";
-var baseURL = "https://localhost:7083/";
+var baseURL = "http://13.127.134.229/";
 
 $(document).ready(function () {
     // Initial binding of the "Add More" button
